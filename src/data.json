@@ -1,0 +1,59 @@
+{
+	"theme": {
+		"color": "#747a7e"
+	},
+	"payload": {
+		"cards": [
+			{
+				"front": {
+					"backgroundType": "default",
+					"content": {
+						"textType": "heading",
+						"textAlign": "center",
+						"text": "Front of card 1"
+					}
+				},
+				"back": {
+					"backgroundType": "default",
+					"content": {
+						"textType": "heading",
+						"textAlign": "center",
+						"text": "Back of card 1"
+					}
+				}
+			}, {
+				"front": {
+					"backgroundType": "default",
+					"content": {
+						"textType": "heading",
+						"textAlign": "center",
+						"text": "Front of card 2"
+					}
+				},
+				"back": {
+					"backgroundType": "default",
+					"content": {
+						"textType": "description",
+						"textAlign": "left",
+						"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+					}
+				}
+			},{
+				"front": {
+					"backgroundType": "default",
+					"content": {
+					"textType": "heading",
+					"textAlign": "center",
+					"text": "Front of card 3"
+				}
+			},
+				"back": {
+					"backgroundType": "fullimage",
+					"content": {
+						"imgSrc": "http://fillmurray.com/300/300"
+					}
+				}
+			}
+		]
+	}
+}

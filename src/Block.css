@@ -1,0 +1,6 @@
+.block-flashcards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	color: #313537;
+}

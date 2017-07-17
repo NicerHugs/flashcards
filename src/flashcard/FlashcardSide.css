@@ -1,0 +1,35 @@
+.block-flashcard__front {
+	height: 100%;
+	position: relative;
+	border: solid 1px #ddd;
+	backface-visibility: hidden;
+	overflow: hidden;
+}
+
+.block-flashcard__back {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;	background-color: #fafafa;
+	backface-visibility: hidden;
+	border: solid 1px #ddd;
+	overflow: hidden;
+	transform: rotateY(180deg);
+}
+
+.block-flashcard__instructions {
+	padding: 1rem;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	backface-visibility: hidden;
+	font-size: 12px;
+	font-style: italic;
+	opacity: .5;
+	transition: opacity .1s linear;
+}
+
+.block-flashcard__instructions:hover {
+	opacity: 1;
+}

@@ -1,0 +1,15 @@
+.block-flashcard__content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	padding: 23px 25px;
+}
+
+.block-flashcard__content--center {
+	text-align: center;
+}
+
+.block-flashcard__content--left {
+	text-align: left;
+}

@@ -1,0 +1,30 @@
+.block-flashcard {
+	flex-shrink: 0;
+	height: 280px;
+	width: 280px;
+	margin: 4px 0;
+	position: relative;
+	z-index: 1;
+	perspective: 1000px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+}
+
+.block-flashcard:hover {
+	cursor: pointer;
+}
+
+.block-flashcard__wrapper {
+	height: 100%;
+	width: 100%;
+	transform: scale(.9) rotateY(0);
+	transform-style: preserve-3d;
+	box-shadow: 0 0.4rem 1.2rem 0.2rem rgba(0,0,0,.05);
+	transition: transform .5s cubic-bezier(.6,0,.4,1),
+		-webkit-transform .5s cubic-bezier(.6,0,.4,1);
+	will-change: transform;
+}
+
+.block-flashcard--flipped .block-flashcard__wrapper {
+  transform: rotateY( -180deg) scale(1);
+}
